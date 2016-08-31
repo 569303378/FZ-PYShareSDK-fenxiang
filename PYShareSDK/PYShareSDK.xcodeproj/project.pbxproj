@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18E79A681D669115004CD001 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E79A671D669115004CD001 /* main.m */; };
+		18E79A6B1D669115004CD001 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E79A6A1D669115004CD001 /* AppDelegate.m */; };
+		18E79A6E1D669115004CD001 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E79A6D1D669115004CD001 /* ViewController.m */; };
+		18E79A711D669115004CD001 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E79A6F1D669115004CD001 /* Main.storyboard */; };
+		18E79A731D669115004CD001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E79A721D669115004CD001 /* Assets.xcassets */; };
+		18E79A761D669115004CD001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E79A741D669115004CD001 /* LaunchScreen.storyboard */; };
+		18E79A811D669115004CD001 /* PYShareSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E79A801D669115004CD001 /* PYShareSDKTests.m */; };
+		18E79A8C1D669115004CD001 /* PYShareSDKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E79A8B1D669115004CD001 /* PYShareSDKUITests.m */; };
+		18E79ABD1D66917A004CD001 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E79ABC1D66917A004CD001 /* libicucore.tbd */; };
+		18E79ABF1D669188004CD001 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E79ABE1D669188004CD001 /* libz.tbd */; };
+		18E79AC11D669195004CD001 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E79AC01D669195004CD001 /* libstdc++.tbd */; };
+		18E79AC31D6691A2004CD001 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E79AC21D6691A2004CD001 /* JavaScriptCore.framework */; };
+		18E79AC51D6691B4004CD001 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E79AC41D6691B4004CD001 /* ImageIO.framework */; };
+		18E79AC71D6691BF004CD001 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E79AC61D6691BF004CD001 /* libsqlite3.tbd */; };
+		18E79AC91D66964D004CD001 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18E79AC81D66964D004CD001 /* 1.jpg */; };
+		18E79AE61D66A584004CD001 /* ShareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E79ACD1D66A584004CD001 /* ShareSDK.framework */; };
+		18E79AE71D66A584004CD001 /* ShareSDKExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E79AD01D66A584004CD001 /* ShareSDKExtension.framework */; };
+		18E79AE81D66A584004CD001 /* ShareSDKUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18E79AD11D66A584004CD001 /* ShareSDKUI.bundle */; };
+		18E79AE91D66A584004CD001 /* ShareSDKUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E79AD21D66A584004CD001 /* ShareSDKUI.framework */; };
+		18E79AEA1D66A584004CD001 /* libWeiboSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E79AD51D66A584004CD001 /* libWeiboSDK.a */; };
+		18E79AEB1D66A584004CD001 /* WeiboSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18E79ADF1D66A584004CD001 /* WeiboSDK.bundle */; };
+		18E79AEC1D66A584004CD001 /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E79AE31D66A584004CD001 /* MOBFoundation.framework */; };
+		18E79AED1D66A584004CD001 /* ShareSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18E79AE41D66A584004CD001 /* ShareSDK.bundle */; };
+		18E79AEE1D66A584004CD001 /* ShareSDKConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E79AE51D66A584004CD001 /* ShareSDKConnector.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18E79A7D1D669115004CD001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E79A5B1D669115004CD001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E79A621D669115004CD001;
+			remoteInfo = PYShareSDK;
+		};
+		18E79A881D669115004CD001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E79A5B1D669115004CD001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E79A621D669115004CD001;
+			remoteInfo = PYShareSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18E79A631D669115004CD001 /* PYShareSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PYShareSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E79A671D669115004CD001 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18E79A691D669115004CD001 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18E79A6A1D669115004CD001 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18E79A6C1D669115004CD001 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18E79A6D1D669115004CD001 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18E79A701D669115004CD001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18E79A721D669115004CD001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E79A751D669115004CD001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18E79A771D669115004CD001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E79A7C1D669115004CD001 /* PYShareSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PYShareSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E79A801D669115004CD001 /* PYShareSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYShareSDKTests.m; sourceTree = "<group>"; };
+		18E79A821D669115004CD001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E79A871D669115004CD001 /* PYShareSDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PYShareSDKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E79A8B1D669115004CD001 /* PYShareSDKUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYShareSDKUITests.m; sourceTree = "<group>"; };
+		18E79A8D1D669115004CD001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E79ABC1D66917A004CD001 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		18E79ABE1D669188004CD001 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		18E79AC01D669195004CD001 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		18E79AC21D6691A2004CD001 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		18E79AC41D6691B4004CD001 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		18E79AC61D6691BF004CD001 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		18E79AC81D66964D004CD001 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		18E79ACA1D66A4FC004CD001 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		18E79ACB1D66A4FC004CD001 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		18E79ACD1D66A584004CD001 /* ShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDK.framework; sourceTree = "<group>"; };
+		18E79AD01D66A584004CD001 /* ShareSDKExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKExtension.framework; sourceTree = "<group>"; };
+		18E79AD11D66A584004CD001 /* ShareSDKUI.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDKUI.bundle; sourceTree = "<group>"; };
+		18E79AD21D66A584004CD001 /* ShareSDKUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKUI.framework; sourceTree = "<group>"; };
+		18E79AD51D66A584004CD001 /* libWeiboSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeiboSDK.a; sourceTree = "<group>"; };
+		18E79AD61D66A584004CD001 /* WBHttpRequest+WeiboGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboGame.h"; sourceTree = "<group>"; };
+		18E79AD71D66A584004CD001 /* WBHttpRequest+WeiboShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboShare.h"; sourceTree = "<group>"; };
+		18E79AD81D66A584004CD001 /* WBHttpRequest+WeiboToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboToken.h"; sourceTree = "<group>"; };
+		18E79AD91D66A584004CD001 /* WBHttpRequest+WeiboUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboUser.h"; sourceTree = "<group>"; };
+		18E79ADA1D66A584004CD001 /* WBHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBHttpRequest.h; sourceTree = "<group>"; };
+		18E79ADB1D66A584004CD001 /* WBSDKBasicButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSDKBasicButton.h; sourceTree = "<group>"; };
+		18E79ADC1D66A584004CD001 /* WBSDKCommentButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSDKCommentButton.h; sourceTree = "<group>"; };
+		18E79ADD1D66A584004CD001 /* WBSDKRelationshipButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSDKRelationshipButton.h; sourceTree = "<group>"; };
+		18E79ADE1D66A584004CD001 /* WeiboSDK+Statistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WeiboSDK+Statistics.h"; sourceTree = "<group>"; };
+		18E79ADF1D66A584004CD001 /* WeiboSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WeiboSDK.bundle; sourceTree = "<group>"; };
+		18E79AE01D66A584004CD001 /* WeiboSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboSDK.h; sourceTree = "<group>"; };
+		18E79AE11D66A584004CD001 /* WeiboUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboUser.h; sourceTree = "<group>"; };
+		18E79AE31D66A584004CD001 /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
+		18E79AE41D66A584004CD001 /* ShareSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDK.bundle; sourceTree = "<group>"; };
+		18E79AE51D66A584004CD001 /* ShareSDKConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKConnector.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E79A601D669115004CD001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E79AC71D6691BF004CD001 /* libsqlite3.tbd in Frameworks */,
+				18E79AEC1D66A584004CD001 /* MOBFoundation.framework in Frameworks */,
+				18E79AE91D66A584004CD001 /* ShareSDKUI.framework in Frameworks */,
+				18E79AE71D66A584004CD001 /* ShareSDKExtension.framework in Frameworks */,
+				18E79AC51D6691B4004CD001 /* ImageIO.framework in Frameworks */,
+				18E79AE61D66A584004CD001 /* ShareSDK.framework in Frameworks */,
+				18E79AEA1D66A584004CD001 /* libWeiboSDK.a in Frameworks */,
+				18E79AEE1D66A584004CD001 /* ShareSDKConnector.framework in Frameworks */,
+				18E79AC31D6691A2004CD001 /* JavaScriptCore.framework in Frameworks */,
+				18E79AC11D669195004CD001 /* libstdc++.tbd in Frameworks */,
+				18E79ABF1D669188004CD001 /* libz.tbd in Frameworks */,
+				18E79ABD1D66917A004CD001 /* libicucore.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E79A791D669115004CD001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E79A841D669115004CD001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E79A5A1D669115004CD001 = {
+			isa = PBXGroup;
+			children = (
+				18E79AC61D6691BF004CD001 /* libsqlite3.tbd */,
+				18E79AC41D6691B4004CD001 /* ImageIO.framework */,
+				18E79AC21D6691A2004CD001 /* JavaScriptCore.framework */,
+				18E79AC01D669195004CD001 /* libstdc++.tbd */,
+				18E79ABE1D669188004CD001 /* libz.tbd */,
+				18E79ABC1D66917A004CD001 /* libicucore.tbd */,
+				18E79ACC1D66A584004CD001 /* ShareSDK */,
+				18E79A651D669115004CD001 /* PYShareSDK */,
+				18E79A7F1D669115004CD001 /* PYShareSDKTests */,
+				18E79A8A1D669115004CD001 /* PYShareSDKUITests */,
+				18E79A641D669115004CD001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18E79A641D669115004CD001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E79A631D669115004CD001 /* PYShareSDK.app */,
+				18E79A7C1D669115004CD001 /* PYShareSDKTests.xctest */,
+				18E79A871D669115004CD001 /* PYShareSDKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E79A651D669115004CD001 /* PYShareSDK */ = {
+			isa = PBXGroup;
+			children = (
+				18E79A691D669115004CD001 /* AppDelegate.h */,
+				18E79A6A1D669115004CD001 /* AppDelegate.m */,
+				18E79A6C1D669115004CD001 /* ViewController.h */,
+				18E79A6D1D669115004CD001 /* ViewController.m */,
+				18E79AC81D66964D004CD001 /* 1.jpg */,
+				18E79A6F1D669115004CD001 /* Main.storyboard */,
+				18E79A721D669115004CD001 /* Assets.xcassets */,
+				18E79A741D669115004CD001 /* LaunchScreen.storyboard */,
+				18E79A771D669115004CD001 /* Info.plist */,
+				18E79A661D669115004CD001 /* Supporting Files */,
+			);
+			path = PYShareSDK;
+			sourceTree = "<group>";
+		};
+		18E79A661D669115004CD001 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18E79A671D669115004CD001 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18E79A7F1D669115004CD001 /* PYShareSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				18E79A801D669115004CD001 /* PYShareSDKTests.m */,
+				18E79A821D669115004CD001 /* Info.plist */,
+			);
+			path = PYShareSDKTests;
+			sourceTree = "<group>";
+		};
+		18E79A8A1D669115004CD001 /* PYShareSDKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18E79A8B1D669115004CD001 /* PYShareSDKUITests.m */,
+				18E79A8D1D669115004CD001 /* Info.plist */,
+			);
+			path = PYShareSDKUITests;
+			sourceTree = "<group>";
+		};
+		18E79ACC1D66A584004CD001 /* ShareSDK */ = {
+			isa = PBXGroup;
+			children = (
+				18E79ACD1D66A584004CD001 /* ShareSDK.framework */,
+				18E79ACE1D66A584004CD001 /* Support */,
+			);
+			path = ShareSDK;
+			sourceTree = "<group>";
+		};
+		18E79ACE1D66A584004CD001 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				18E79ACF1D66A584004CD001 /* Optional */,
+				18E79AD31D66A584004CD001 /* PlatformSDK */,
+				18E79AE21D66A584004CD001 /* Required */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		18E79ACF1D66A584004CD001 /* Optional */ = {
+			isa = PBXGroup;
+			children = (
+				18E79AD01D66A584004CD001 /* ShareSDKExtension.framework */,
+				18E79AD11D66A584004CD001 /* ShareSDKUI.bundle */,
+				18E79AD21D66A584004CD001 /* ShareSDKUI.framework */,
+			);
+			path = Optional;
+			sourceTree = "<group>";
+		};
+		18E79AD31D66A584004CD001 /* PlatformSDK */ = {
+			isa = PBXGroup;
+			children = (
+				18E79AD41D66A584004CD001 /* SinaWeiboSDK */,
+			);
+			path = PlatformSDK;
+			sourceTree = "<group>";
+		};
+		18E79AD41D66A584004CD001 /* SinaWeiboSDK */ = {
+			isa = PBXGroup;
+			children = (
+				18E79AD51D66A584004CD001 /* libWeiboSDK.a */,
+				18E79AD61D66A584004CD001 /* WBHttpRequest+WeiboGame.h */,
+				18E79AD71D66A584004CD001 /* WBHttpRequest+WeiboShare.h */,
+				18E79AD81D66A584004CD001 /* WBHttpRequest+WeiboToken.h */,
+				18E79AD91D66A584004CD001 /* WBHttpRequest+WeiboUser.h */,
+				18E79ADA1D66A584004CD001 /* WBHttpRequest.h */,
+				18E79ADB1D66A584004CD001 /* WBSDKBasicButton.h */,
+				18E79ADC1D66A584004CD001 /* WBSDKCommentButton.h */,
+				18E79ADD1D66A584004CD001 /* WBSDKRelationshipButton.h */,
+				18E79ADE1D66A584004CD001 /* WeiboSDK+Statistics.h */,
+				18E79ADF1D66A584004CD001 /* WeiboSDK.bundle */,
+				18E79AE01D66A584004CD001 /* WeiboSDK.h */,
+				18E79AE11D66A584004CD001 /* WeiboUser.h */,
+			);
+			path = SinaWeiboSDK;
+			sourceTree = "<group>";
+		};
+		18E79AE21D66A584004CD001 /* Required */ = {
+			isa = PBXGroup;
+			children = (
+				18E79AE31D66A584004CD001 /* MOBFoundation.framework */,
+				18E79AE41D66A584004CD001 /* ShareSDK.bundle */,
+				18E79AE51D66A584004CD001 /* ShareSDKConnector.framework */,
+			);
+			path = Required;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E79A621D669115004CD001 /* PYShareSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E79A901D669115004CD001 /* Build configuration list for PBXNativeTarget "PYShareSDK" */;
+			buildPhases = (
+				18E79A5F1D669115004CD001 /* Sources */,
+				18E79A601D669115004CD001 /* Frameworks */,
+				18E79A611D669115004CD001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PYShareSDK;
+			productName = PYShareSDK;
+			productReference = 18E79A631D669115004CD001 /* PYShareSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18E79A7B1D669115004CD001 /* PYShareSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E79A931D669115004CD001 /* Build configuration list for PBXNativeTarget "PYShareSDKTests" */;
+			buildPhases = (
+				18E79A781D669115004CD001 /* Sources */,
+				18E79A791D669115004CD001 /* Frameworks */,
+				18E79A7A1D669115004CD001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E79A7E1D669115004CD001 /* PBXTargetDependency */,
+			);
+			name = PYShareSDKTests;
+			productName = PYShareSDKTests;
+			productReference = 18E79A7C1D669115004CD001 /* PYShareSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18E79A861D669115004CD001 /* PYShareSDKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E79A961D669115004CD001 /* Build configuration list for PBXNativeTarget "PYShareSDKUITests" */;
+			buildPhases = (
+				18E79A831D669115004CD001 /* Sources */,
+				18E79A841D669115004CD001 /* Frameworks */,
+				18E79A851D669115004CD001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E79A891D669115004CD001 /* PBXTargetDependency */,
+			);
+			name = PYShareSDKUITests;
+			productName = PYShareSDKUITests;
+			productReference = 18E79A871D669115004CD001 /* PYShareSDKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E79A5B1D669115004CD001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					18E79A621D669115004CD001 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8B4BA8E4SM;
+					};
+					18E79A7B1D669115004CD001 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8B4BA8E4SM;
+						TestTargetID = 18E79A621D669115004CD001;
+					};
+					18E79A861D669115004CD001 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8B4BA8E4SM;
+						TestTargetID = 18E79A621D669115004CD001;
+					};
+				};
+			};
+			buildConfigurationList = 18E79A5E1D669115004CD001 /* Build configuration list for PBXProject "PYShareSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E79A5A1D669115004CD001;
+			productRefGroup = 18E79A641D669115004CD001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E79A621D669115004CD001 /* PYShareSDK */,
+				18E79A7B1D669115004CD001 /* PYShareSDKTests */,
+				18E79A861D669115004CD001 /* PYShareSDKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E79A611D669115004CD001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E79A761D669115004CD001 /* LaunchScreen.storyboard in Resources */,
+				18E79A731D669115004CD001 /* Assets.xcassets in Resources */,
+				18E79AE81D66A584004CD001 /* ShareSDKUI.bundle in Resources */,
+				18E79AED1D66A584004CD001 /* ShareSDK.bundle in Resources */,
+				18E79A711D669115004CD001 /* Main.storyboard in Resources */,
+				18E79AC91D66964D004CD001 /* 1.jpg in Resources */,
+				18E79AEB1D66A584004CD001 /* WeiboSDK.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E79A7A1D669115004CD001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E79A851D669115004CD001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E79A5F1D669115004CD001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E79A6E1D669115004CD001 /* ViewController.m in Sources */,
+				18E79A6B1D669115004CD001 /* AppDelegate.m in Sources */,
+				18E79A681D669115004CD001 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E79A781D669115004CD001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E79A811D669115004CD001 /* PYShareSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E79A831D669115004CD001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E79A8C1D669115004CD001 /* PYShareSDKUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18E79A7E1D669115004CD001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E79A621D669115004CD001 /* PYShareSDK */;
+			targetProxy = 18E79A7D1D669115004CD001 /* PBXContainerItemProxy */;
+		};
+		18E79A891D669115004CD001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E79A621D669115004CD001 /* PYShareSDK */;
+			targetProxy = 18E79A881D669115004CD001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18E79A6F1D669115004CD001 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E79A701D669115004CD001 /* Base */,
+				18E79ACA1D66A4FC004CD001 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18E79A741D669115004CD001 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E79A751D669115004CD001 /* Base */,
+				18E79ACB1D66A4FC004CD001 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E79A8E1D669115004CD001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18E79A8F1D669115004CD001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E79A911D669115004CD001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShareSDK",
+					"$(PROJECT_DIR)/ShareSDK/Support/Optional",
+					"$(PROJECT_DIR)/ShareSDK/Support/Required",
+				);
+				INFOPLIST_FILE = PYShareSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShareSDK/Support/PlatformSDK/SinaWeiboSDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYShareSDK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18E79A921D669115004CD001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShareSDK",
+					"$(PROJECT_DIR)/ShareSDK/Support/Optional",
+					"$(PROJECT_DIR)/ShareSDK/Support/Required",
+				);
+				INFOPLIST_FILE = PYShareSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShareSDK/Support/PlatformSDK/SinaWeiboSDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYShareSDK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18E79A941D669115004CD001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PYShareSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYShareSDKTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PYShareSDK.app/PYShareSDK";
+			};
+			name = Debug;
+		};
+		18E79A951D669115004CD001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PYShareSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYShareSDKTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PYShareSDK.app/PYShareSDK";
+			};
+			name = Release;
+		};
+		18E79A971D669115004CD001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PYShareSDKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYShareSDKUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PYShareSDK;
+			};
+			name = Debug;
+		};
+		18E79A981D669115004CD001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PYShareSDKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYShareSDKUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PYShareSDK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E79A5E1D669115004CD001 /* Build configuration list for PBXProject "PYShareSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E79A8E1D669115004CD001 /* Debug */,
+				18E79A8F1D669115004CD001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E79A901D669115004CD001 /* Build configuration list for PBXNativeTarget "PYShareSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E79A911D669115004CD001 /* Debug */,
+				18E79A921D669115004CD001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E79A931D669115004CD001 /* Build configuration list for PBXNativeTarget "PYShareSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E79A941D669115004CD001 /* Debug */,
+				18E79A951D669115004CD001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E79A961D669115004CD001 /* Build configuration list for PBXNativeTarget "PYShareSDKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E79A971D669115004CD001 /* Debug */,
+				18E79A981D669115004CD001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E79A5B1D669115004CD001 /* Project object */;
+}
